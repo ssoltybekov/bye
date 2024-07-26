@@ -1,6 +1,7 @@
 body {
   height: 90vh;
-  background-color: #f3cfc6;
+  /* background-color: #f3cfc6; */
+  background-color: #f9d689;
 }
 
 #ans {
@@ -30,7 +31,8 @@ body {
   font-family: "Nunito";
   font-size: 50px;
   font-weight: bold;
-  color: 	#8B008B;
+  /* color: #8b008b; */
+  color: #973131;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -56,7 +58,8 @@ body {
 }
 
 .btn {
-  background-color: #ffb6c1;
+  /* background-color: #ffb6c1; */
+  background-color: #e0a75e;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -70,13 +73,16 @@ body {
 }
 
 .btn:hover {
-  background-color: #ff8e9f;
+  /* background-color: #ff8e9f; */
+  background-color: #973131;
 }
 
 .gif_container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .qrimage {
@@ -89,19 +95,21 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
+  width: 400px;
+  height: 300px;
   cursor: pointer;
 }
 
 img.animated-gif {
   width: 300px;
-  height: auto;
+  height: 300px;
 }
 
 .image-row {
   display: flex;
   justify-content: space-between;
   justify-content: center;
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
